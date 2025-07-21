@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "oceanus",
+	"version": "${version}",
+	"name": "Oceanus",
+	"description": "Reduces land generation the further you travel!",
+	"authors": [
+		"Lizdtre"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/oceanus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.lizdtre.oceanus.Oceanus"
+		],
+		"client": [
+			"io.github.lizdtre.oceanus.OceanusClient"
+		],
+		"fabric-datagen": [
+			"io.github.lizdtre.oceanus.OceanusDataGenerator"
+		]
+	},
+	"mixins": [
+		"oceanus.mixins.json",
+		{
+			"config": "oceanus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

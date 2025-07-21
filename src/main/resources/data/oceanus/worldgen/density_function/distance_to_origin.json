@@ -1,0 +1,26 @@
+{
+    "type": "more_dfs:sqrt",
+    "argument": {
+        "type": "add",
+        "argument1": {
+            "type": "square",
+            "argument": {
+                "type": "more_dfs:subtract",
+                "argument1": {
+                    "type": "more_dfs:x"
+                },
+                "argument2": "oceanus:configurable/offset_x"
+            }
+        },
+        "argument2": {
+            "type": "square",
+            "argument": {
+                "type": "more_dfs:subtract",
+                "argument1": {
+                    "type": "more_dfs:z"
+                },
+                "argument2": "oceanus:configurable/offset_z"
+            }
+        }
+    }
+}
