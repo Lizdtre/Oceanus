@@ -1,6 +1,21 @@
 {
-	"pack": {
-		"pack_format": 48,
-		"description": "Reduces land generation the further you travel - Made by Lizdtre"
-	}
+  "pack": {
+    "description": [
+      {
+        "text": "Oceanus",
+        "color": "#0059a8"
+      },
+      "\n",
+      {
+        "text": "Small world, no barriers\nMade by ",
+        "color": "#B0B0B0"
+      },
+      {
+        "text": "Lizdtre",
+        "color": "#a340ba"
+      }
+    ],
+    "pack_format": 48,
+    "supported_formats": [48, 999]
+  }
 }
