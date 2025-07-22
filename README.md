@@ -15,6 +15,8 @@ Also checkout [One Survival Island](https://modrinth.com/datapack/one-survival-i
 
 Credit to [Uni](https://github.com/unnecessarymb) for the vanilla coordinate density function
 
+## Examples
+
 | ![Example1](assets/Example1.png) | ![Example2](assets/Example2.png) |
 |---|---|
 | ![Example3](assets/Example3.png) | ![Example4](assets/Example4.png)
