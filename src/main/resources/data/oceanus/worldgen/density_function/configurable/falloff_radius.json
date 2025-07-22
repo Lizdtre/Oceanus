@@ -1,5 +1,0 @@
-{
-  "type": "constant",
-  "argument": 2000.0,
-  "comment": "also change the falloff_radius_reciprocal when changing this value!"
-}

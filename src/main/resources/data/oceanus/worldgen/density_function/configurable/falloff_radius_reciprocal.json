@@ -1,5 +1,0 @@
-{
-  "type": "constant",
-  "argument": 0.0005,
-  "comment": "this value must be 1 divided by the falloff radius"
-}
