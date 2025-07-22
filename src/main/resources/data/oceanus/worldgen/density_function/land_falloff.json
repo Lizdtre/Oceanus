@@ -27,7 +27,7 @@
     },
     "min_inclusive": -1.0,
     "max_exclusive": 0.1,
-    "when_out_of_range": 0.3,
+    "when_out_of_range": "oceanus:configurable/ocean_variability",
     "when_in_range": {
       "type": "more_dfs:subtract",
       "argument1": 1.0,
