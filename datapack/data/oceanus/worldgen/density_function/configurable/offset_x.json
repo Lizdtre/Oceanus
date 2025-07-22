@@ -1,5 +1,5 @@
 {
   "type": "constant",
   "argument": 0.0,
-  "comment": "offsets the center of the unaffected area in the X axis",
+  "comment": "offsets the center of the unaffected area in the X axis"
 }
