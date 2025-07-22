@@ -24,13 +24,13 @@
             },
             "when_in_range": {
                 "type": "add",
-                "argument1": -1.04,
+                "argument1": -1.0,
                 "argument2": {
                     "type": "mul",
                     "argument1":{
                         "type": "add",
                         "argument1": "oceanus:vanilla/overworld_large_biomes/continents",
-                        "argument2": 1.04
+                        "argument2": 1.0
                     },
                     "argument2": "oceanus:land_falloff"
                 }
