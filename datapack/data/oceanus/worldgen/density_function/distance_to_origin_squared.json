@@ -1,0 +1,19 @@
+{
+    "type": "add",
+    "argument1": {
+        "type": "square",
+        "argument": {
+            "type": "add",
+            "argument1": "oceanus:coord/x",
+            "argument2": "oceanus:configurable/offset_x"
+        }
+    },
+    "argument2": {
+        "type": "square",
+        "argument": {
+            "type": "add",
+            "argument1": "oceanus:coord/z",
+            "argument2": "oceanus:configurable/offset_z"
+        }
+    }
+}

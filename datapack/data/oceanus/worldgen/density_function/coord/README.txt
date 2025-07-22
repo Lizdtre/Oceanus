@@ -1,0 +1,1 @@
+Vanilla-friendly coordinate function created by Uni (unnecessarymb), acquired from https://modrinth.com/datapack/one-survival-island (with permission from Uni)
