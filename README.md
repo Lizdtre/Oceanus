@@ -11,9 +11,9 @@ Oceanus makes your world smaller without the need for an intrusive barrier. This
 * Ocean Variability: How varied the ocean terrain is, from endless deep ocean to regular ocean generation
 
 ---
-Also checkout [One Survival Island](https://modrinth.com/datapack/one-survival-island) by Klinbee
+Also check out [One Survival Island](https://modrinth.com/datapack/one-survival-island) by Klinbee.
 
-Credit to [Uni](https://github.com/unnecessarymb) for the vanilla coordinate density function
+Credit to [Uni](https://github.com/unnecessarymb) for the vanilla coordinate density function.
 
 ## Examples
 
