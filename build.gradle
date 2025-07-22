@@ -17,7 +17,6 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 
-	maven { url "https://api.modrinth.com/maven"}
 }
 
 loom {
@@ -47,7 +46,6 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	include(modImplementation("maven.modrinth:more-density-functions:1.0.5"))
 }
 
 processResources {
