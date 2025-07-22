@@ -1,5 +1,0 @@
-{
-  "type": "constant",
-  "argument": 5000.0,
-  "comment": "radius of the area where terrain generation is unaffected, in blocks"
-}

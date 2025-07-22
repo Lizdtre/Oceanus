@@ -1,5 +1,0 @@
-{
-  "type": "constant",
-  "argument": 1.0,
-  "comment": "1.0 to generate vanilla mushroom islands, 0.0 to to remove them (only applies in the endless ocean region)"
-}
