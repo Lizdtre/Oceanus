@@ -1,6 +1,7 @@
 {
-    "type": "add",
-    "argument1": "oceanus:overworld/continents",
-    "argument2": 0.0
-    
+    "type": "minecraft:flat_cache",
+    "argument": {
+        "type": "cache_2d",
+        "argument": "oceanus:overworld/continents"
+    }
 }

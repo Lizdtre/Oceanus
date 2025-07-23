@@ -1,5 +1,7 @@
 {
   "type": "constant",
   "argument": 0.0005,
-  "comment": "this value must be 1 divided by the falloff radius"
+  
+  "comment_IMPORTANT": "this value MUST be 1 divided by the falloff radius -> 1/X",
+  "comment_example": "if the falloff radius is 2000, this value should be 1/2000 = 0.0005"
 }

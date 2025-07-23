@@ -1,0 +1,8 @@
+{
+  "type": "square",
+  "argument":{
+    "type": "mul",
+    "argument1": "oceanus:configurable/ocean_variability_compensation",
+    "argument2": "oceanus:configurable/falloff_radius"
+  }
+}

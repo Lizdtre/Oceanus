@@ -43,7 +43,7 @@
             "argument2": {
               "type": "add",
               "argument1": "oceanus:vals/unaffected_radius_squared",
-              "argument2": "oceanus:vals/falloff_radius_squared"
+              "argument2": "oceanus:vals/falloff_radius_treated"
             }
           }
         },
@@ -72,7 +72,7 @@
         "argument1": -1.0,
         "argument2": {
           "type": "mul",
-          "argument1": "oceanus:vals/falloff_radius_reciprocal_squared",
+          "argument1": "oceanus:vals/falloff_radius_reciprocal_treated",
           "argument2": {
             "type": "add",
             "argument1": "oceanus:distance_to_origin_squared",

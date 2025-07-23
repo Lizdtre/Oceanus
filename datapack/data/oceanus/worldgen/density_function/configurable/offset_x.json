@@ -1,5 +1,6 @@
 {
   "type": "constant",
   "argument": 0.0,
-  "comment": "offsets the center of the unaffected area in the X axis",
+  "comment1": "offsets the center of the unaffected area in the X axis",
+  "comment2": "default value: 0.0"
 }
