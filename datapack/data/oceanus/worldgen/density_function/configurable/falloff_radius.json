@@ -1,9 +1,11 @@
 {
   "type": "constant",
   "argument": 2000.0,
+
+  "comment_IMPORTANT": "=*=*=*=*=*=IMPORTANT=*=*=*=*=*=: when changing this value, also update falloff_radius_reciprocal",
+
   "comment1": "width of the band where continentalness gradually decreases",
   "comment2": "the higher this number, the more gradual the transition from unaffected terrain to endless ocean, however, too-high values may result in large regions with very few mountain biomes",
   "comment3": "Range: 0.0 or greater",
-  "comment4": "default value: 2000.0",
-  "comment_IMPORTANT": "=*=*=*=*=*=IMPORTANT=*=*=*=*=*=: also change the falloff_radius_reciprocal when changing this value!"
+  "comment4": "default value: 2000.0"
 }

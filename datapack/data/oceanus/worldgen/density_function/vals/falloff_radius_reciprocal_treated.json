@@ -1,0 +1,16 @@
+{
+  "type": "square",
+  "argument":{
+    "type": "mul",
+    "argument1": "oceanus:configurable/falloff_radius_reciprocal",
+    "argument2": {
+      "type": "add",
+      "argument1": 1.0,
+      "argument2": {
+        "type": "mul",
+        "argument1": -1.0,
+        "argument2": "oceanus:configurable/ocean_variability"
+      }
+    }
+  }
+}
