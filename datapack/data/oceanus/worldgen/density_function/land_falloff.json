@@ -65,21 +65,29 @@
     "max_exclusive": 0.0,
     "when_out_of_range": "oceanus:configurable/ocean_variability",
     "when_in_range": {
-      "type": "add",
-      "argument1": 1.0,
-      "argument2": {
-        "type": "mul",
-        "argument1": -1.0,
+      "type":"add",
+      "argument1":"oceanus:configurable/ocean_variability",
+      "argument2":{
+        "type":"mul",
+        "argument1": "oceanus:vals/ocean_variability_complement",
         "argument2": {
-          "type": "mul",
-          "argument1": "oceanus:vals/falloff_radius_reciprocal_treated",
+          "type": "add",
+          "argument1": 1.0,
           "argument2": {
-            "type": "add",
-            "argument1": "oceanus:distance_to_origin_squared",
+            "type": "mul",
+            "argument1": -1.0,
             "argument2": {
               "type": "mul",
-              "argument1": -1.0,
-              "argument2": "oceanus:vals/unaffected_radius_squared"
+              "argument1": "oceanus:vals/falloff_radius_reciprocal_treated",
+              "argument2": {
+                "type": "add",
+                "argument1": "oceanus:distance_to_origin_squared",
+                "argument2": {
+                  "type": "mul",
+                  "argument1": -1.0,
+                  "argument2": "oceanus:vals/unaffected_radius_squared"
+                }
+              }
             }
           }
         }
