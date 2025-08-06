@@ -14,7 +14,7 @@ Add compatibility for {MOD_NAME} version {VERSION_NUMBER}
 ## Checks
 
 - [ ] Have i checked for existing [Issues](https://github.com/Lizdtre/Oceanus/issues) requesting support for this mod?
-- [ ] Have checked the [Add-ons/fixes](https://github.com/Lizdtre/Oceanus/wiki/Add%E2%80%90ons) page for one that might already have solved this issue?
+- [ ] Have checked the [Compatibility](https://github.com/Lizdtre/Oceanus/wiki/Compatibility) page for compatibility status?
 - [ ] Have i downloaded the mod as a datapack (if possible) and tested different loading orders in relation to Oceanus?
 
 What does the world look like when i try to generate it with both the mod/pack and Oceanus enabled? Select one
