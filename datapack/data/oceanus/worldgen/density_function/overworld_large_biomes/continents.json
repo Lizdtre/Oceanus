@@ -2,7 +2,7 @@
     "type": "range_choice",
     "input": "oceanus:vanilla/overworld_large_biomes/continents",
     "min_inclusive": -1.045,
-    "max_exclusive": 10000000.0,
+    "max_exclusive": 1000000.0,
     "when_out_of_range": {
         "type": "range_choice",
         "input": "oceanus:configurable/keep_mushroom_islands",
