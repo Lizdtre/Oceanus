@@ -1,8 +1,8 @@
 {
     "type": "range_choice",
     "input": "oceanus:vanilla/overworld/continents",
-    "min_inclusive": -1.0,
-    "max_exclusive": 2.0,
+    "min_inclusive": -1.049,
+    "max_exclusive": 10000000.0,
     "when_out_of_range": {
         "type": "range_choice",
         "input": "oceanus:configurable/keep_mushroom_islands",
@@ -12,7 +12,7 @@
         "when_in_range": {
             "type": "range_choice",
             "input": "oceanus:vanilla/overworld/continents",
-            "min_inclusive": -2.0,
+            "min_inclusive": -10000000.0,
             "max_exclusive": -1.0,
             "when_in_range": -1.0,
             "when_out_of_range": "oceanus:vanilla/overworld/continents"
