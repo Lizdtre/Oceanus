@@ -1,0 +1,29 @@
+{
+    "type": "moredfs:sqrt",
+    "argument":{
+        "type": "add",
+        "argument1": {
+            "type": "square",
+            "argument": {
+                "type": "add",
+                "argument1": {
+                    "type": "moredfs:x"
+                },
+                "argument2": "oceanus:configurable/offset_x"
+            }
+        },
+        "argument2": {
+            "type": "square",
+            "argument": {
+                "type": "add",
+                "argument1": {
+                    "type": "moredfs:z"
+                },
+                "argument2": "oceanus:configurable/offset_z"
+            }
+        }
+    },
+    "min_output": 0.0,
+    "max_output": 10000000.0,
+    "error_argument": 0.0
+}

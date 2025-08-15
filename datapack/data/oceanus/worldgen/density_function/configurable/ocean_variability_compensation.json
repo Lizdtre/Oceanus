@@ -1,7 +1,0 @@
-{
-  "type": "constant",
-  "argument": 1.428571428,
-
-  "comment_IMPORTANT": "this value MUST be 1 divided by, 1 minus the ocean variability -> 1/(1-X)",
-  "comment_example": "if ocean variability is 0.3, this value must be be 1/0.7 = 1.428571428"
-}

@@ -1,34 +1,27 @@
 {
     "type": "range_choice",
     "input": "oceanus:vanilla/overworld_large_biomes/continents",
-    "min_inclusive": -1.045,
-    "max_exclusive": 1000000.0,
-    "when_out_of_range": {
+    "min_inclusive": -1000000.0,
+    "max_exclusive": -1.049,
+    "when_in_range": {
         "type": "range_choice",
         "input": "oceanus:configurable/keep_mushroom_islands",
         "min_inclusive": 0.0,
-        "max_exclusive": 0.01,
-        "when_out_of_range": "oceanus:vanilla/overworld_large_biomes/continents",
-        "when_in_range": {
-            "type": "range_choice",
-            "input": "oceanus:vanilla/overworld_large_biomes/continents",
-            "min_inclusive": -1000000.0,
-            "max_exclusive": -1.0,
-            "when_in_range": -1.0,
-            "when_out_of_range": "oceanus:vanilla/overworld_large_biomes/continents"
-        }
+        "max_exclusive": 0.1,
+        "when_in_range": -1.049,
+        "when_out_of_range": "oceanus:vanilla/overworld_large_biomes/continents"
     },
-    "when_in_range": {
+    "when_out_of_range": {
         "type": "add",
-        "argument1": -1.0,
+        "argument1": -1.049,
         "argument2": {
             "type": "mul",
-            "argument1":{
+            "argument1": "oceanus:land_falloff",
+            "argument2": {
                 "type": "add",
                 "argument1": "oceanus:vanilla/overworld_large_biomes/continents",
-                "argument2": 1.0
-            },
-            "argument2": "oceanus:land_falloff"
+                "argument2": 1.049
+            }
         }
     }
 }
